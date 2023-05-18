@@ -1,0 +1,195 @@
+.editP{
+    display: flex;
+  }
+  .edit{
+    width: 60%;
+    height: 1000px;
+    border-left: black solid 0.125px;
+    min-width: fit-content;
+  }
+  .s1{
+    width: 65px;
+    height: 65px;
+    margin-top: 400px;
+    margin-left: 27px;
+    border-radius: 50px;
+    background-color: #ff7008;
+  }
+  .b1{
+    display: flex; border: black solid 0.5px; height: 1000px
+  }.b2{
+    width: 120px; height: 1000px; background-color: #ffc297
+  }.b3{
+    width: 30%;
+    height: 1000px;
+    border-left: black solid 0.125px;
+    min-width: fit-content;
+  }
+  .input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+
+.first{
+    display: flex;
+}
+.email{
+    
+    margin-left: 75px
+}
+.inputemail{
+    width: 970px;
+    height: 50px;
+    border-radius: 5px;
+  
+    position: relative;
+}
+.adress{
+    display: flex; margin-left: 75px
+}
+.inputadress{
+    width: 970px; height: 50px; border-radius: 5px
+}
+.contact{
+    display: flex; margin-left: 75px
+}
+.inputcontact{
+    width: 970px; height: 50px; border-radius: 5px
+}
+.city{
+    display: flex; margin-left: 75px
+}
+.btn{
+    display: flex; margin-top: 50px; margin-left: 73px
+}
+.btn1{
+    width: 190px;
+    height: 55px;
+    background-color: #ffffff;
+    border: 2px solid #ff7008;
+    border-radius: 5px;
+}
+.btn2{
+    width: 190px;
+    height: 55px;
+    background-color: #ff7008;
+    border-radius: 5px;
+}
+@media screen and (max-width: 1000px) {
+  .setting {
+   display: none;
+   padding: 30px 30px;
+  }
+  .editP{
+    width: 530px;
+  }
+  .first{
+    display: block;
+    padding: 30px 30px;
+  }
+  .email{
+    margin-left: 0px;
+    padding: 30px 30px;
+  }
+  .inputemail{
+    width: 405px; height: 50px; border-radius: 5px;
+  }
+  .adress{
+    margin-left: 0px;
+    padding: 30px 30px;
+  }
+  .inputadress{
+    width: 405px; height: 50px; border-radius: 5px;
+  }
+  .contact{
+    margin-left: 0px;
+    padding: 30px 30px;
+  }
+  .inputcontact{
+    width: 405px; height: 50px; border-radius: 5px;
+  }
+  .city  {
+    margin-left: 0px;
+    padding: 30px 30px;
+   
+  }
+  .btn{
+    margin-left: 0px;
+    margin-top: 10px;
+    padding: 30px 30px;
+  }
+  .btn1{
+    width: 190px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 2px solid #ff7008;
+    border-radius: 5px;
+  }
+  .btn2{
+    width: 190px;
+    height: 30px;
+    background-color: #ff7008;
+    border-radius: 5px;
+  }
+  .edit{
+    height: 1400px;
+  }
+  .b1{
+    height: 1400px;
+  }
+  .b2{
+    height: 1400px;
+  }
+  .b3{
+    height: 1400px; 
+
+  }.s1{
+    margin-top: 800px;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .setting {padding-top: 15px;}
+  .setting a {font-size: 18px;}
+}
+
+ul{
+  list-style: none;
+
+
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+ul li a{
+  display: block;
+  padding: 20px 25px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+
+}
+
+ul li ul.dropdow li{
+  display: block;
+}
+
+ul li ul.dropdow {
+  width: 100%;
+ 
+ position: absolute;
+ z-index: 99;
+ display: none
+}
+
+ul li a:hover{
+
+
+}
+ul li:hover ul.dropdow{
+  display: block;
+}

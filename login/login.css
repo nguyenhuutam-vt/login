@@ -1,0 +1,93 @@
+.wrapper{
+ width: 1920px;
+ height: 1080px;
+ background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+ ;
+ position: relative;
+
+}
+
+.content{
+    width: 1248px;
+    height: 579px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.left{
+    width: 60%;
+   height: 579px;
+   padding: 50px 50px;
+}
+
+.right{
+    width: 40%;
+    height: 579px;
+    background-color: #6096B4;
+    border-radius: 10px;
+}
+.logo{
+    background-color: #D9D9D9;
+    width: 212px;
+    height: 47px;
+
+}
+.username{
+    margin-top: 20px;
+}
+.password{
+    margin-top: 20px;
+
+}
+.login{
+    font-family: fantasy;
+    font-weight: 600;
+    font-size: 56px;
+
+    margin-top: 20px;
+
+}
+.login-btn{
+    margin-top: 20px;
+ text-align: center;
+}
+.input{
+    width: 478px;
+    height: 46px;
+    background-color: #6096B4;
+}
+.button-login{
+   width: 150px;
+   height: 46px;
+   background-color: #D885A3;
+   border-radius: 20px;
+}
+.or{
+        margin-top: 20px;
+   text-align: center;
+}
+.btn-social{
+    width: 125px;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #6096B4;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.signup{
+    text-align: center;
+}
+
+.signup a {
+    text-decoration: none;
+}
+.social{
+    text-align: center;
+}
